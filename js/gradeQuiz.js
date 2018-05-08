@@ -48,8 +48,14 @@ $(document).ready(function(){
             dataType : "json",
             data : {"score" : score},            
             success : function(data){
-                console.log(data);
+                //console.log(data);
+                $("#times").html(data.times);
+                $("#average").html(data.average);
+                $("#feedback").css("display","block");
+                $("#waiting").html("");
+                $("input[type='submit']").css("display","");
                 
+                score=0;
             },
             complete: function(data,status) { //optional, used for debugging purposes
                // alert(status);
