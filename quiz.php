@@ -10,6 +10,21 @@
     <input type="radio" name="question2" id="q2-2"  value="B"/><label for='q2-2'>Albus <br />
     <input type="radio" name="question2" id="q2-3"  Value="C"/><label for='q2-3'>Monte Rey <br />
     <div id="question2-feedback" class="answer"></div><br />
+    
+    <!--Question 3-->
+    Where is CSUMB located?<br />
+    <input type="radio" name="question3" id="q3-1"  value="A"/><label for='q3-1'>Soledad <br />
+    <input type="radio" name="question3" id="q3-2"  value="B"/><label for='q3-2'>SeaSide <br />
+    <input type="radio" name="question3" id="q3-3"  Value="C"/><label for='q3-3'>Monterey <br />
+    <div id="question3-feedback" class="answer"></div><br />
+
+    <!--Question 4-->
+    What was CSUMB before?<br />
+    <input type="radio" name="question4" id="q4-1"  value="A"/><label for='q4-1'>Aquarium <br />
+    <input type="radio" name="question4" id="q4-2"  value="B"/><label for='q4-2'>Power Plant<br />
+    <input type="radio" name="question4" id="q4-3"  Value="C"/><label for='q4-3'>Military Base <br />
+    <div id="question4-feedback" class="answer"></div><br />
+
 
     <input type="submit" value="Submit" />
     
